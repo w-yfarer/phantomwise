@@ -1,0 +1,163 @@
+<head><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+<link href="//solrainha.github.io/honeybee/honeybee.css" rel="stylesheet">
+</head>
+
+<div style="margin-left: 30vw;"><div class="tang-wrapper">
+<div class="tang-bg"><div class="tang-tog"><span class="th th-shuffle-o"></div>
+  
+<div id="tangerine" class="tang-content">
+<div class="tang-in">
+  <div class="tang-img-1" style="background-image: url(https://i.postimg.cc/Cx0j2xXg/lacuna-9.png);"></div>
+
+ 
+ <div class="tang-slide-bg"><div class="tang-slide-1"><div class="tang-slide-2"></div></div><div class="tang-slide-mark"></div>
+<div class="tang-slide-time"><span>2:17</span> 3:21</div></div>
+  
+<div class="tang-title">welcome</div>
+<div class="tang-desc">hello! this is my thread tracker for the challange! there's some doubles b/c it's taking me so long i've forgotten i've coded some of these so think of those as "bonuses"</div>
+  
+<div class="tang-hash">
+
+  </div>  
+</div></div>
+  
+  
+
+  
+  
+  
+
+
+  <div id="dreamland" class="tang-content">
+<div class="tang-in"><div class="tang-img-1" style="background-image: url(https://i.postimg.cc/X7jkh2Wj/MHkOSVC.jpg);">
+</div>
+ 
+ <div class="tang-slide-bg"><div class="tang-slide-1"><div class="tang-slide-2"></div></div><div class="tang-slide-mark"></div>
+<div class="tang-slide-time"><span>2:56</span> 3:21</div></div>
+  
+<div class="tang-title">Dreamland</div>
+<div class="tang-desc">template tracker, inspired by music players uis, wip heres a line of text</div>
+  
+<div class="tang-hash">
+    #misc <n></n>  #gradient <n></n>  #noscroll <n></n> #complete 
+ </div>  
+</div></div>
+
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+<div class="tang-list-bg">
+<div class="tang-tabs" onclick="openTemp(event, 'tangerine')" id="tang-content-open"><span class="th th-heart-1-o"></span><div class="tang-tabs-title"><n>tangerine</n>  
+template type here</div></div>
+    
+<div class="tang-tabs" onclick="openTemp(event, 'dreamland')" id="tang-content-open"><span class="th th-heart-1-o"></span><div class="tang-tabs-title"><n>dreamland</n>  
+template type here</div></div>
+  
+<div class="tang-tabs" onclick="openTemp(event, 'tangerine')" id="tang-content-open"><span class="th th-heart-1-o"></span><div class="tang-tabs-title"><n>tangerine</n>  
+template type here</div></div>
+
+
+  
+  
+  </div></div>
+  </div>
+    
+
+ 
+  
+  <script>
+       $('.tang-tog').click(function(){
+    $('.tang-list-bg').slideToggle('500')
+   });
+
+
+
+document.getElementById("tang-content-open").click();
+
+function openTemp(evt, tempName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tang-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tang-tabs");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace("active", "");
+    }
+    document.getElementById(tempName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+    
+  </script>
+    <style>
+    body {background-color: #eee; margin: 50px; background: rgba(253, 180, 147,1); background: linear-gradient(180deg, rgba(253, 180, 147,1) 0%, rgba(250, 167, 183,1) 72%);       background-repeat: no-repeat; background-attachment: fixed;}
+.tang-wrapper {background: rgba(253, 180, 147,1); background: linear-gradient(180deg, rgba(253, 180, 147,1) 0%, rgba(250, 167, 183,1) 72%);       background-repeat: no-repeat; background-attachment: fixed; width: 375px; padding: 50px;}
+.tang-bg {background-color: #fff; width: 375px; height: 400px; padding: 0 0; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; box-shadow: 10px 10px 37px -1px rgba(29,29,29,0.28); -moz-box-shadow: 10px 10px 37px -1px rgba(29,29,29,0.28); box-shadow: 10px 10px 37px -1px rgba(29,29,29,0.28); position: relative; overflow: hidden;}
+.tang-tog {position: absolute; top: 20px; right: 20px;background: linear-gradient(180deg, rgba(253, 180, 147,1) 0%, rgba(250, 167, 183,1) 70%);  font-size: 30px; text-transform: uppercase; background-repeat: no-repeat; -webkit-background-clip: text;-webkit-text-fill-color: transparent; z-index: 1;}
+.tang-in {display: flex; flex-flow: column wrap; justify-content: center; align-items: center; width: 375px; height: 400px; }
+.tang-img-1 {width: 125px; height: 125px; background-size: cover; webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; box-shadow: 10px 10px 37px -1px rgba(29,29,29,0.22); -moz-box-shadow: 10px 10px 37px -1px rgba(29,29,29,0.28); box-shadow: 10px 10px 37px -1px rgba(29,29,29,0.22); }
+.tang-img-2 {width: 250px; height: 125px; background-size: cover; box-shadow: 10px 10px 27px -1px rgba(29,29,29,0.23); -moz-box-shadow: 10px 10px 27px -1px rgba(29,29,29,0.23); box-shadow: 10px 10px 27px -1px rgba(29,29,29,0.23);}
+.tang-slide-bg {position: relative; width: 250px; margin: 30px 0 20px 0;}
+.tang-slide-1 {background: linear-gradient(45deg, rgba(253, 180, 147,1) 0%, rgba(250, 167, 183,1) 38%); width: 250px; height: 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; position: relative; overflow: hidden;}
+.tang-slide-2 {background-color: rgba(255,255,255,0.8); width: 50px; height: 10px;  position: absolute; right: -1px;}
+.tang-slide-mark {width: 4px; height: 4px; border: 6px solid rgba(255,255,255,0.9); font-size: 15px; z-index: 1; position: absolute; top: -4px; right: 45px; background-color: transparent; webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;}
+.tang-slide-time {font-family: Source Code Pro; font-size: 9px; color: rgba(253, 180, 147,1); text-align: right; margin-top: 5px;}
+.tang-slide-time span {color: rgba(250, 167, 183,1); float: left;}
+.tang-title {font-family: Asap; font-size: 24px; font-weight: 700; text-align: center; text-transform: uppercase; color: #333; letter-spacing: -1px;}
+.tang-desc {font-family: source code pro; font-size: 10px; color: #666; width: 275px; margin-top: 10px; line-height: 155%; max-height: 45px; text-align: justify; overflow: auto; padding-right: 5px;}
+.tang-desc::-webkit-scrollbar {background-color: transparent; width: 1px;}
+.tang-desc::-webkit-scrollbar-thumb {background-color: rgba(253, 180, 147,1);}
+.tang-hash {width: 275px; margin-top: 20px; text-align: right; display: inline-block; background: linear-gradient(45deg, rgba(253, 180, 147,1) 0%, rgba(250, 167, 183,1) 80%);  font-family: asap;  text-transform: uppercase; background-repeat: no-repeat; -webkit-background-clip: text;-webkit-text-fill-color: transparent; font-size: 10px; font-weight: 700;}
+.tang-hash n {padding: 0 2px;}
+
+.tang-list-bg {height: 189px; width: 385px; overflow: auto;  margin-top: 20px; padding-right: 5px; position: relative; z-index: 2; display: none;}
+.tang-list-bg::-webkit-scrollbar {background-color: transparent; width: 3px;}
+.tang-list-bg::-webkit-scrollbar-thumb {background-color: rgba(255,255,255,0.5);}
+
+.tang-tabs {background-color: #fff; width: 325px; padding: 25px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; box-shadow: 10px 10px 10px -3px rgba(29,29,29,0.28); -moz-box-shadow: 10px 10px 10px -1px rgba(29,29,29,0.28); margin-bottom: 20px;  display: flex; align-items: center;}
+.tang-tabs span {font-size: 20px; margin-right: 20px;}
+.tang-tabs-title {font-family: source code pro; font-size: 10px; color: #666;}
+.tang-tabs-title n {font-family: asap; font-weight: 700; font-size: 13px; text-transform: uppercase; color: #222; display: block;}
+
+
+.tang-content {
+ position: relative;
+    -webkit-animation: fadeEffect 1.0s;
+    animation: fadeEffect 1.0s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+   from {
+     opacity: 0;
+      margin-top: -250px;
+
+   }
+   to {
+      top: 0px;
+     opacity: 1;
+   }
+}
+
+@keyframes fadeEffect {
+   from {
+      margin-top: -250px;
+            opacity: 0;
+
+   }
+   to {
+      top: 0px;
+           opacity: 1;
+
+   }
+}
+  </style>
+
