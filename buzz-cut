@@ -1,0 +1,116 @@
+<head>
+  <link href="//solrainha.github.io/honeybee/honeybee.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Cousine|Open+Sans:400,700" rel="stylesheet"> <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900|Dosis' rel='stylesheet' type='text/css'><link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i|Raleway:300,400,600,700|Roboto:400,500,700" rel="stylesheet">  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <link href="//dl.dropbox.com/s/50g6fbds3rh4m0j/saturnicons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i" rel="stylesheet"><link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+<link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+
+<div style="background-color: #fff; width: 270px; height: 100%; position: fixed; top: 0px; left: 0px;">
+  <div style="padding: 15px 35px; color: #222;">
+    
+    <div style="font-family: poppins; font-weight: 700; font-size: 170px; margin-left: 50px; letter-spacing: -5px; position: relative; z-index: 99;">002.</div><div style="background-color: #222; width: 330px; position: relative; top: -45px; left: 50px; color: #eee; font-family: cousine; text-transform: uppercase; font-size: 10px; height: 10px; line-height: 10px;  padding: 17px 15px 15px 15px; text-align: right; position: relative; z-index: 99;"> dev template / buzz cut</div>
+      
+    <div class="cin-desc">so this was originally supposed to be an app template, idk where it changed to this. but the song for this template is <span>buzz cut by lovelytheband</span></div> 
+    
+    
+    </div>
+  
+  
+</div>
+
+<center style="margin-left: 370px;">
+
+
+<div class="buzz-bg"><div class="buzz-palette">
+<span style="background-color: #e8cab2;"> </span>
+<span style="background-color: #efc4a0;"> </span>
+<span style="background-color: #666E82;"> </span>
+<span style="background-color: #414D6B;"> </span>
+<span style="background-color: #2C364C;"> </span>
+
+</div><div class="buzz-name">
+noel jiang
+  
+<div class="buzz-det">
+26 <span>/</span> professional idiot <span>/</span> the ardent</div>
+  
+</div>
+<div class="buzz-img" style="background-image: url(https://i.postimg.cc/0QKZgYz0/asdasdad.png);">
+    
+<div class="buzz-hov"></div><div class="buzz-bor"></div>
+    
+<div class="buzz-app">
+avery jiang
+<span>twin sister, eternal annoyance</span>
+
+caroline iles
+  <span>bussiness partner (fightfight<i>fight</i>)</span>
+      
+relationship
+ <span>details can go here</span>
+      
+relationship
+ <span>details can go here</span>
+      
+relationship
+ <span>details can go here</span>
+   
+</div></div> <div class="buzz-quote-bg"><h2><span class="th th-quote-up"></span></h2></div><div class="buzz-quote">
+
+you see, i take the parts that i remember and stitch them back together to make a creature that will do what i say or love me back.
+</div>
+  
+<div class="buzz-author"><h2>richard siken
+</h2></div><div class="buzz-aes">
+
+    <img src="https://i.pinimg.com/564x/a1/6c/af/a16caff4dfa0d560749c6cd93c1b487e.jpg">
+  <img src="https://i.pinimg.com/564x/ad/fe/7f/adfe7fc2fd8fc624a37a607636d8adf6.jpg">
+<img src="https://i.pinimg.com/564x/05/02/1d/05021d642327fca4bd5f1e295901e740.jpg">
+<img src="https://i.pinimg.com/564x/30/75/bc/3075bcb02046d08acb886daa5bbf6820.jpg">
+
+</div></div>
+  </center>
+
+
+<style>
+body {background-color: #eee; margin: 50px; background: rgba(253, 180, 147,1); background: linear-gradient(180deg, rgba(239, 196, 160,1) 0%, rgba(65, 77, 107,1) 72%);       background-repeat: no-repeat; background-attachment: fixed;}
+
+
+.cin-desc {font-family: poppins; font-size: 11px; line-height: 150%; color: #535353; text-align: justify; height: 200px; overflow: auto; padding-right: 10px;}
+.cin-desc::-webkit-scrollbar {background-color: transparent; width: 10px;}
+.cin-desc::-webkit-scrollbar-thumb {background-color: #222;}
+.cin-desc span { background-color: #efc4a0; background-image: linear-gradient(45deg, #efc4a0, #414D6B); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; font-weight: 700;}
+
+.buzz-bg {background-color: #fff; border: 1px solid #dbdbdb; padding: 30px 50px; width: 500px; line-height: 10px; color: #2a2a2a; position: relative; margin: 20px; text-align: left;}
+.buzz-name {font-family: poppins; font-size: 23px; text-transform: uppercase; font-weight: 700; margin: 25px 0px 0px 25px; line-height: 20px;}
+.buzz-det {font-size: 10px; font-weight: 300;}
+.buzz-det span {padding: 0px 3px;}
+.buzz-palette {font-family: playfair display; position: absolute; right: 80px; top: 68px; font-size: 15px;}
+.buzz-palette span {width: 15px; height: 15px; display: inline-block; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%; margin-left: 5px;}
+.buzz-img {width: 450px; height: 200px; background-size: cover; margin: 30px 0px; padding: 25px; position: relative; overflow: hidden;}
+.buzz-bor {border: 1px solid #dbdbdb; width: 450px; height: 200px; position: relative; z-index: 1;}
+.buzz-bg .buzz-hov {background-color: rgba(0,0,0,.7); border: 1px solid #1d1d1d; width: 500px; height: 250px; position: absolute; left: 0px; top: 0px; -WEBKIT-TRANSITION: 0.8S ALL EASE-IN-OUT; -MOZ-TRANSITION: 0.8S ALL EASE-IN-OUT;  -O-TRANSITION: 0.8S ALL EASE-IN-OUT; transition-delay: 1.5S; -webkit-transition-delay: 1.5S; text-align: center; -moz-transform: scale(0); -webkit-transform: scale(0); -o-transform: scale(0); -ms-transform: scale(0); transform: scale(0); }
+.buzz-bg:hover .buzz-hov {-moz-transform: scale(1); -webkit-transform: scale(1); -o-transform: scale(1); -ms-transform: scale(1); transform: scale(1); transition-delay: 0.7S; -webkit-transition-delay: 0.7S;}
+.buzz-bg .buzz-app {position: absolute; top: 55px; left: 55px; width: 395px; height: 140px; overflow: auto; color: #fff; font-family: poppins; font-size: 16px; font-weight: 700; text-transform: uppercase; z-index: 2; line-height: 120%; opacity: 0;  -WEBKIT-TRANSITION: 0.7S ALL EASE-IN-OUT; -MOZ-TRANSITION: 0.7S ALL EASE-IN-OUT;  -O-TRANSITION: 0.7S ALL EASE-IN-OUT; transition-delay: 0.5S; -webkit-transition-delay: 0.5S;}
+.buzz-bg:hover .buzz-app {opacity: 1; transition-delay: 1.5S; -webkit-transition-delay: 1.5S;}
+.buzz-app::-webkit-scrollbar {background-color: transparent; width: 3px;}
+.buzz-app::-webkit-scrollbar-thumb {background-color: #fff;}
+.buzz-app span:before {content:"—"; padding-right: 5px;}
+.buzz-app span {font-size: 10px; font-weight: 300; display: block; text-transform: lowercase; padding: 1px 10px 10px 10px;}
+.buzz-app a {color: #fff;}
+.buzz-quote-bg h2 {text-align: left; display: flex; flex-direction: row; justify-content: center; font-family: poppins; font-size: 23px; text-transform: uppercase; font-weight: 700; margin-top: 35px;}
+.buzz-quote-bg h2:before, .buzz-quote-bg h2:after {height: 6px; content: ''; background-color: #2a2a2a; position: relative; top: 0.3em; }
+.buzz-quote-bg h2:before {flex-grow: .03; margin-right: 10px;}
+.buzz-quote-bg h2:after {flex-grow: 1;  margin-left: 10px;}
+.buzz-quote {font-family: playfair display; text-transform: lowercase; font-weight: 700; font-style: italic; font-size: 19px; line-height: 120%; text-align: justify; margin: 0px 20px; letter-spacing: -1px; margin-top: -2px;}
+.buzz-author h2 {text-align: right; display: flex; flex-direction: row; justify-content: center; font-family: poppins; font-size: 10px; text-transform: uppercase; font-weight: 700; margin-top: 25px; margin-bottom: 30px;}
+.buzz-author h2:before, .buzz-author h2:after {height: 6px; content: ''; background-color: #2a2a2a; position: relative; top: 0.1em; }
+.buzz-author h2:before {flex-grow: 1; margin-right: 10px;}
+.buzz-author h2:after {flex-grow: 0.1;  margin-left: 10px;}
+.buzz-aes {display: flex; flex-direction: row; justify-content: space-between; margin-top: 35px; padding-bottom: 20px;}
+.buzz-aes img {width: 75px; height: 75px; border: 1px solid #dbdbdb; padding: 7px;}
+
+</style>
