@@ -21,7 +21,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
-
 <div style="background-color: #fff; width: 270px; height: 100%; position: fixed; top: 0px; left: 0px;">
   <div style="padding: 15px 35px; color: #222;">
     
@@ -35,8 +34,18 @@
   
 </div>
 
+
 <center style="margin-left: 370px;">
-  
+<div class="tabset">
+  <!-- Tab 1 -->
+  <input type="radio" name="tabset" id="tab1" aria-controls="vone" checked>
+  <label for="tab1">ONE</label>
+  <!-- Tab 2 -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="vtwo">
+  <label for="tab2">TWO</label>
+
+  <div class="tab-panels">
+    <section id="vone" class="tab-panel">
 <div style="font-family: poppins; font-size: 20px; font-weight: 700; margin-bottom: 20px; text-align: center">BLACK & WHITE VER.</div>
 
 <!--- BLACK AND WHITE START --->
@@ -67,7 +76,10 @@ first last</div>
 </div>
 
 <!--- BLACK AND WHITE END --->
-<div style="font-family: poppins; font-size: 20px; font-weight: 700; margin-bottom: 20px;  margin-top: 50px;"><center>COLOUR (USING VAR) VER.</center></div>
+
+    </section>
+    <section id="vtwo" class="tab-panel">
+<div style="font-family: poppins; font-size: 20px; font-weight: 700; margin-bottom: 20px; text-align: center">COLOURED VER. (VAR)</div>
 
   <!--- COLOUR START --->
 
@@ -98,12 +110,75 @@ first last</div>
   
   
     <!--- COLOUR END --->
-</center>
+    </section>
+  </div>
+  
+</div>
 
+    </center>
 <style>
 /*** BLACK AND WHITE ***/
 
 body {background-color: #eee; margin: 50px; background: rgba(62, 61, 82,1); background: linear-gradient(180deg, rgba(252, 169, 182,1) 0%, rgba(82, 99, 142,1) 72%);       background-repeat: no-repeat; background-attachment: fixed;}
+
+
+
+.cin-desc {font-family: poppins; font-size: 11px; line-height: 150%; color: #535353; text-align: justify; height: 200px; overflow: auto; padding-right: 10px;}
+.cin-desc::-webkit-scrollbar {background-color: transparent; width: 10px;}
+.cin-desc::-webkit-scrollbar-thumb {background-color: #222;}
+.cin-desc span { background-color: #859398; background-image: linear-gradient(45deg, #859398, #283048); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; font-weight: 700;}
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+/*
+ Styling
+*/
+
+
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  font-weight: 700;
+  font-family: poppins;
+}
+
+
+.tabset > label:hover,
+.tabset > input:focus + label, .tabset > input:checked + label {
+  color: #283048;
+}
+
+
+
+.tabset > input:checked + label {
+  border-color: #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+}
+
 
 
 .cin-desc {font-family: poppins; font-size: 11px; line-height: 150%; color: #535353; text-align: justify; height: 200px; overflow: auto; padding-right: 10px;}
